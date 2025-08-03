@@ -15,9 +15,6 @@ function! s:replace_char()
 	if !('a' <= v:char && v:char <= 'z' || 'A' <= v:char && v:char <= 'Z')
 		return
 	endif
-	let l:digraph = trim(v:char . '=')
-	if strcharlen(l:digraph) == 2
-		let v:char = digraph_get(l:digraph)
-	endif
+	let v:char = digraph_get(v:char . '=')
 endfunction
 
