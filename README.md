@@ -2,7 +2,7 @@
 
 A tiny Vim plugin that transforms your ASCII letters into Cyrillic characters, as you type.
 
-[![asciicast](https://asciinema.org/a/Yo5dQtFhJP3922rA5GfMBg9iv.svg)](https://asciinema.org/a/Yo5dQtFhJP3922rA5GfMBg9iv)
+https://github.com/user-attachments/assets/6dd4dcbb-8c78-4128-8390-e46b39429b85
 
 ## Usage
 
