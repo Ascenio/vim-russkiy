@@ -8,3 +8,4 @@ https://github.com/user-attachments/assets/6dd4dcbb-8c78-4128-8390-e46b39429b85
 
 - `:Russkiy on`
 - `:Russkiy off`
+- `:Russkiy toggle`
