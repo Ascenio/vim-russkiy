@@ -9,6 +9,18 @@ function! russkiy#off()
 	augroup russkiy
 		autocmd!
 	augroup END
+	augroup! russkiy
+endfunction
+
+function! russkiy#toggle()
+	let l:groups = split(execute('augroup'), '')
+	for l:group in l:groups
+		if l:group ==# 'russkiy'
+			call russkiy#off()
+			return
+		endif
+	endfor
+	call russkiy#on()
 endfunction
 
 function! s:replace_char()

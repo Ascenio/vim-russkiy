@@ -10,12 +10,14 @@ function! s:russkiy_command(command)
 		call russkiy#on()
 	elseif a:command == 'off'
 		call russkiy#off()
+	elseif a:command == 'toggle'
+		call russkiy#toggle()
 	else
 		echoerr 'Unknown subcommand ' . a:command
 	endif
 endfunction
 
 function! s:russkiy_options(_, __, ___)
-	return ['on', 'off']
+	return ['on', 'off', 'toggle']
 endfunction
 
